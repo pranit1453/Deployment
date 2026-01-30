@@ -1,0 +1,30 @@
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Habit Tracker Backend.exe
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\appsettings.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\appsettings.Production.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Habit Tracker Backend.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Habit Tracker Backend.runtimeconfig.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Habit Tracker Backend.pdb
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\BCrypt.Net-Next.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\BouncyCastle.Cryptography.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\MailKit.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.IdentityModel.Logging.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Microsoft.OpenApi.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\MimeKit.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\MySqlConnector.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Newtonsoft.Json.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Twilio.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\publish\Habit Tracker Backend.deps.json

@@ -1,0 +1,127 @@
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\publish\web.config
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\appsettings.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\appsettings.Production.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\publish\appsettings.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\publish\appsettings.Production.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\publish\Habit Tracker Backend.deps.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\publish\Habit Tracker Backend.runtimeconfig.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\publish\Habit Tracker Backend.staticwebassets.endpoints.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Habit Tracker Backend.staticwebassets.endpoints.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Habit Tracker Backend
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Habit Tracker Backend.deps.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Habit Tracker Backend.runtimeconfig.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Habit Tracker Backend.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Habit Tracker Backend.pdb
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\BCrypt.Net-Next.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\BouncyCastle.Cryptography.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Humanizer.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\MailKit.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.CodeAnalysis.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Microsoft.OpenApi.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\MimeKit.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Mono.TextTemplating.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\MySqlConnector.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Newtonsoft.Json.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\System.CodeDom.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\System.Composition.AttributedModel.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\System.Composition.Convention.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\System.Composition.Hosting.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\System.Composition.Runtime.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\System.Composition.TypedParts.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\Twilio.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\bin\Release\net8.0\linux-x64\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.csproj.AssemblyReference.cache
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\rpswa.dswa.cache.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.AssemblyInfoInputs.cache
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.AssemblyInfo.cs
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.csproj.CoreCompileInputs.cache
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\rjimswa.dswa.cache.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\rjsmrazor.dswa.cache.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\rjsmcshtml.dswa.cache.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\scopedcss\bundle\Habit Tracker Backend.styles.css
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\staticwebassets.build.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\staticwebassets.build.json.cache
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\staticwebassets.development.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\staticwebassets.build.endpoints.json
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\swae.build.ex.cache
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tr.29C10FE5.Up2Date
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\refint\Habit Tracker Backend.dll
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.pdb
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\Habit Tracker Backend.genruntimeconfig.cache
+C:\Users\Pranit\Desktop\Final Version To Deploy\Habit Tracker Backend\obj\Release\net8.0\linux-x64\ref\Habit Tracker Backend.dll
