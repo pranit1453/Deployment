@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Habit Tracker Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3622eb440abd14b84ddf6501c30302c3588f489d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Habit Tracker Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Habit Tracker Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,9 +6,11 @@ using Habit_Tracker_Backend.Services.Interfaces;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.RateLimiting;
 
@@ -21,6 +23,7 @@ namespace Habit_Tracker_Backend
             var builder = WebApplication.CreateBuilder(args);
             var configuration = builder.Configuration;
 
+            // ================= JWT =================
             builder.Services.Configure<JwtOptions>(
                 configuration.GetSection("Jwt"));
 
@@ -31,25 +34,25 @@ namespace Habit_Tracker_Backend
             if (jwtOptions.Key.Length < 32)
                 throw new InvalidOperationException("JWT Key must be at least 32 characters long");
 
-            
+            // ================= EMAIL =================
             builder.Services.Configure<EmailOptions>(
                 configuration.GetSection("Email"));
 
-            
+            // ================= CONTROLLERS + JSON =================
             builder.Services.AddControllers()
-                    .AddJsonOptions(options =>
-                    {
-                        options.JsonSerializerOptions.ReferenceHandler =
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.ReferenceHandler =
                         ReferenceHandler.IgnoreCycles;
 
-                        options.JsonSerializerOptions.PropertyNamingPolicy =
-                        System.Text.Json.JsonNamingPolicy.CamelCase;
+                    options.JsonSerializerOptions.PropertyNamingPolicy =
+                        JsonNamingPolicy.CamelCase;
 
-                        options.JsonSerializerOptions.Converters.Add(
-                        new JsonStringEnumConverter()
-                        );
-                    });
-            
+                    options.JsonSerializerOptions.Converters.Add(
+                        new JsonStringEnumConverter());
+                });
+
+            // ================= SWAGGER =================
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
             {
@@ -81,18 +84,25 @@ namespace Habit_Tracker_Backend
                 });
             });
 
-
+            // ================= DATABASE =================
             var connectionString =
-                        configuration.GetConnectionString("DefaultConnection")
-                        ?? throw new InvalidOperationException(
-                        "Database connection string 'DefaultConnection' is missing");
+                configuration.GetConnectionString("DefaultConnection")
+                ?? throw new InvalidOperationException(
+                    "Database connection string 'DefaultConnection' is missing");
 
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseMySql(
                     connectionString,
-                    new MySqlServerVersion(new Version(8, 0, 34))
-                );
+                    new MySqlServerVersion(new Version(8, 0, 34)),
+                    mySqlOptions =>
+                    {
+                        mySqlOptions.EnableRetryOnFailure(
+                            maxRetryCount: 5,
+                            maxRetryDelay: TimeSpan.FromSeconds(10),
+                            errorNumbersToAdd: null
+                        );
+                    });
 
                 if (builder.Environment.IsDevelopment())
                 {
@@ -100,9 +110,7 @@ namespace Habit_Tracker_Backend
                 }
             });
 
-
-
-
+            // ================= SERVICES =================
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<IOtpService, OtpService>();
             builder.Services.AddScoped<IJwtService, JwtService>();
@@ -114,14 +122,14 @@ namespace Habit_Tracker_Backend
             builder.Services.AddScoped<IAnalyticsService, AnalyticsService>();
             builder.Services.AddScoped<IReminderService, ReminderService>();
             builder.Services.AddScoped<IUserService, UserService>();
+
+            // Background service only in production
             if (!builder.Environment.IsDevelopment())
             {
                 builder.Services.AddHostedService<ReminderBackgroundService>();
             }
 
-
-
-
+            // ================= AUTH =================
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
@@ -131,19 +139,18 @@ namespace Habit_Tracker_Backend
                         ValidateAudience = true,
                         ValidateLifetime = true,
                         ValidateIssuerSigningKey = true,
-
                         ValidIssuer = jwtOptions.Issuer,
                         ValidAudience = jwtOptions.Audience,
                         IssuerSigningKey =
-                            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtOptions.Key)),
-
+                            new SymmetricSecurityKey(
+                                Encoding.UTF8.GetBytes(jwtOptions.Key)),
                         ClockSkew = TimeSpan.Zero
                     };
                 });
 
             builder.Services.AddAuthorization();
 
-           
+            // ================= CORS =================
             var allowedOrigins = configuration
                 .GetSection("Cors:AllowedOrigins")
                 .Get<string[]>();
@@ -157,14 +164,12 @@ namespace Habit_Tracker_Backend
                         policy.WithOrigins(allowedOrigins);
                     }
 
-                    policy
-                        .AllowAnyHeader()
-                        .AllowAnyMethod();
+                    policy.AllowAnyHeader()
+                          .AllowAnyMethod();
                 });
             });
 
-
-
+            // ================= RATE LIMITING =================
             builder.Services.AddRateLimiter(options =>
             {
                 options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
@@ -186,8 +191,16 @@ namespace Habit_Tracker_Backend
                 });
             });
 
+            // Prevent background service crash from killing app
+            builder.Services.Configure<HostOptions>(options =>
+            {
+                options.BackgroundServiceExceptionBehavior =
+                    BackgroundServiceExceptionBehavior.Ignore;
+            });
+
             var app = builder.Build();
 
+            // ================= PIPELINE =================
             app.UseRouting();
 
             app.UseMiddleware<GlobalExceptionMiddleware>();
@@ -202,14 +215,11 @@ namespace Habit_Tracker_Backend
                 app.UseSwaggerUI();
             }
 
-            // app.UseHttpsRedirection();
-
             app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();
-
-            app.MapGet("/", () => Results.Ok());
+            app.MapGet("/", () => Results.Ok("Habit Tracker API is running"));
 
             app.Run();
         }
