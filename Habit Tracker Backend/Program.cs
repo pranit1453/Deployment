@@ -91,7 +91,7 @@ namespace Habit_Tracker_Backend
             {
                 options.UseMySql(
                     connectionString,
-                    ServerVersion.AutoDetect(connectionString)
+                    new MySqlServerVersion(new Version(8, 0, 34))
                 );
 
                 if (builder.Environment.IsDevelopment())
@@ -99,6 +99,8 @@ namespace Habit_Tracker_Backend
                     options.EnableSensitiveDataLogging();
                 }
             });
+
+
 
 
             builder.Services.AddScoped<IAuthService, AuthService>();
@@ -112,10 +114,14 @@ namespace Habit_Tracker_Backend
             builder.Services.AddScoped<IAnalyticsService, AnalyticsService>();
             builder.Services.AddScoped<IReminderService, ReminderService>();
             builder.Services.AddScoped<IUserService, UserService>();
-            builder.Services.AddHostedService<ReminderBackgroundService>();
+            if (!builder.Environment.IsDevelopment())
+            {
+                builder.Services.AddHostedService<ReminderBackgroundService>();
+            }
 
 
-            
+
+
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
